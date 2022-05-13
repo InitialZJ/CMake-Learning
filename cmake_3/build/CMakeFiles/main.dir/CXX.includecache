@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/swapr.h
+
+/home/lzj/CMake-Learning/cmake_3/main.cpp
+iostream
+-
+swapr.h
+/home/lzj/CMake-Learning/cmake_3/swapr.h
+
+/home/lzj/CMake-Learning/cmake_3/src/swapr.cpp
+swapr.h
+/home/lzj/CMake-Learning/cmake_3/src/swapr.h
+
