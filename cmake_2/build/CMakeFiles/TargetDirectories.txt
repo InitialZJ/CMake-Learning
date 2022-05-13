@@ -1,0 +1,3 @@
+/home/lzj/CMake-Learning/cmake_2/build/CMakeFiles/rebuild_cache.dir
+/home/lzj/CMake-Learning/cmake_2/build/CMakeFiles/helloworld.dir
+/home/lzj/CMake-Learning/cmake_2/build/CMakeFiles/edit_cache.dir
