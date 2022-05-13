@@ -1,0 +1,12 @@
+1. 直接编译
+	g++ main.cpp src/swapr.cpp -o main -I include/
+
+2. 生成静态库文件并编译
+	g++ swapr.cpp -c -I ../include/
+	ar rs libswapr.a swapr.o
+	g++ main.cpp -lswapr -L src/ -I include/ -o main
+
+3. 生成动态库文件并编译（运行命令与静态库不同）
+	g++ swapr.cpp -I ../include/ -fPIC -shared -o libswapr.so
+	g++ main.cpp -lswapr -L src/ -I include/ -o main
+	LD_LIBRARY_PATH=src ./main
